@@ -19,6 +19,12 @@ git clone
 git clone https://github.com/nahidhk/TGapi.git
 ```
 
+open the folder
+
+```git
+cd TGapi 
+```
+
 run api.py
 
 ```git 
