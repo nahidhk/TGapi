@@ -1,3 +1,5 @@
+# This is a next update
+
 import json
 from telethon.sync import TelegramClient
 
@@ -13,7 +15,7 @@ client.start()
 
 
 # যেই চ্যানেল থেকে মেসেজ আনতে চাও, তার username বা ID দাও
-channel_username = 'EarningHerop24'  # যেমন: 'BBCNews'
+channel_username = ''  # যেমন: 'BBCNews'
 
 # শেষ ১০০টা মেসেজ আনছে (limit বাড়াতে পারো)
 for message in client.iter_messages(channel_username, limit=1000):

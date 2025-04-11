@@ -1,3 +1,5 @@
+# This is a next update
+
 import json
 from telethon.sync import TelegramClient
 from telethon.tl.functions.channels import GetFullChannel
@@ -14,7 +16,7 @@ client = TelegramClient('my_session', api_id, api_hash)
 client.start()
 
 # 🔍 Channel username
-channel_username = 'EarningHerop24'
+channel_username = ''
 
 # 📦 Get channel info
 channel_entity = client.get_entity(channel_username)
