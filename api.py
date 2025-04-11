@@ -1,7 +1,7 @@
 from telethon.sync import TelegramClient
 import json
 import os
-
+# 📜 Telegram API configuration
 # 🔍 Check if config.json already exists
 if os.path.exists("config.json"):
     with open("config.json", "r") as f:

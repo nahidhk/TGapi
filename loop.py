@@ -1,7 +1,7 @@
 from telethon.sync import TelegramClient
 import json
 import time  # Delay দিতে চাইলে
-
+# 📜 Telegram API কনফিগারেশন
 # 🔐 config.json থেকে API লোড
 with open("config.json") as f:
     config = json.load(f)
